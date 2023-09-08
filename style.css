@@ -1,4 +1,4 @@
-/* nav bar styling */
+/* nav bar styling ,....................................................................................*/
 .web {
     position: relative;
     background-color: var(--color-white);
@@ -10,6 +10,7 @@
     color: var(--color-gray-200);
     font-family: var(--font-montserrat);
 }
+
 .list {
     width: 200px;
     display: flex;
@@ -597,8 +598,9 @@
     height: 151px;
     color: var(--color-white);
 }
+
 /* nav bar styling ends here */
-/* hero section styling starts here */
+/* hero section styling starts here /////////////////////////////////////////////////////////////////////////////////////*/
 .screenshot-2023-07-31-at-1028 {
     position: absolute;
     top: 151px;
@@ -616,6 +618,7 @@
     height: 600px;
     object-fit: cover;
 }
+
 /* hero section styling end here */
 .web-child {
     position: absolute;
@@ -624,6 +627,7 @@
     width: 1440px;
     height: 600px;
 }
+
 /* this is explore section started */
 .products {
     font-weight: 600;
@@ -746,5 +750,123 @@
     text-align: center;
     font-size: var(--font-size-9xl);
 }
-/* this is started */
-/* this is ends */
+
+/* this is our unbeataable catologue  started */
+.label {
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 35.09px;
+    font-weight: 500;
+}
+
+.label-container,
+.label-frame,
+.label-wrapper {
+    position: absolute;
+    top: 0;
+    left: 242px;
+    border-radius: var(--br-9xs);
+    border: 1px solid var(--color-lightgray);
+    box-sizing: border-box;
+    height: 50px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-xs);
+    align-items: center;
+    justify-content: center;
+}
+
+.label-container,
+.label-frame {
+    left: 423px;
+}
+
+.label-frame {
+    left: 623px;
+}
+
+.frame-parent,
+.label-wrapper1 {
+    position: absolute;
+    left: 0;
+    height: 50px;
+}
+
+.label-wrapper1 {
+    top: 0;
+    border-radius: var(--br-9xs);
+    background-color: var(--color-darkslategray-100);
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-xs);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-white);
+}
+
+.frame-parent {
+    top: 78px;
+    width: 746px;
+}
+
+.our-unbeatable {
+    font-weight: 500;
+}
+
+.our-unbeatable-catalogue-container {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 232px);
+    display: inline-block;
+    width: 464px;
+}
+
+.our-unbeatable-catalogue-wrapper {
+    position: relative;
+    width: 464px;
+    height: 34px;
+}
+
+.the-way-to {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 367px);
+    display: inline-block;
+    width: 734px;
+}
+
+.the-way-to-blissful-interior-wrapper {
+    position: relative;
+    width: 734px;
+    height: 20px;
+    font-size: var(--font-size-base);
+    color: var(--color-gray-100);
+}
+
+.group-parent5 {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 367px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+    text-align: center;
+    font-size: var(--font-size-9xl);
+    color: var(--color-gray-200);
+}
+
+.group-parent4 {
+    position: absolute;
+    top: 1361px;
+    left: 347px;
+    width: 746px;
+    height: 128px;
+    font-size: var(--font-size-lg);
+    color: var(--color-darkslategray-100);
+}
+
+/* this is our unbeataable catologue  ends */
