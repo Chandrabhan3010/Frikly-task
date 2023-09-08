@@ -617,3 +617,134 @@
     object-fit: cover;
 }
 /* hero section styling end here */
+.web-child {
+    position: absolute;
+    top: 151px;
+    left: calc(50% - 719.85px);
+    width: 1440px;
+    height: 600px;
+}
+/* this is explore section started */
+.products {
+    font-weight: 600;
+}
+
+.explore-a-catalogue-container {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 377px);
+    display: inline-block;
+    width: 754px;
+}
+
+.explore-a-catalogue-of-5000-p-wrapper {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 389.5px);
+    width: 754px;
+    height: 34px;
+}
+
+.laminates-sunmica {
+    top: 0;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.laminates-sunmica,
+.laminates-sunmica-parent,
+.up-to-40 {
+    position: absolute;
+    left: calc(50% - 115px);
+    width: 230px;
+}
+
+.up-to-40 {
+    top: 30px;
+    font-size: var(--font-size-base);
+    color: var(--color-gray-100);
+    display: inline-block;
+}
+
+.laminates-sunmica-parent {
+    top: 368px;
+    height: 70px;
+}
+
+.instance-child {
+    border-radius: var(--br-7xs);
+    object-fit: cover;
+}
+
+.instance-child,
+.rectangle-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 350px;
+}
+
+.group-div {
+    position: relative;
+    width: 300px;
+    height: 438px;
+}
+
+.pvc-laminates,
+.pvc-laminates-parent {
+    position: absolute;
+    left: calc(50% - 108px);
+    width: 216px;
+}
+
+.pvc-laminates {
+    top: 0;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.pvc-laminates-parent {
+    top: 368px;
+    height: 50px;
+}
+
+.group-parent1 {
+    position: relative;
+    width: 300px;
+    height: 418px;
+}
+
+.whopping-40-off {
+    position: absolute;
+    top: 30px;
+    left: calc(50% - 108px);
+    font-size: var(--font-size-base);
+    color: var(--color-gray-100);
+    display: inline-block;
+    width: 216px;
+}
+
+.group-container {
+    position: absolute;
+    top: 58px;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 47px;
+    font-size: var(--font-size-xl);
+}
+
+.group-parent {
+    position: absolute;
+    top: 801px;
+    left: calc(50% - 670.85px);
+    width: 1341px;
+    height: 496px;
+    text-align: center;
+    font-size: var(--font-size-9xl);
+}
+/* this is started */
+/* this is ends */
