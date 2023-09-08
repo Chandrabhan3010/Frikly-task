@@ -3,7 +3,19 @@
     body {
         font-size: 16px;
     }
-    .header{
+
+    .header {
+        display: block;
+    }
+
+    .div2,
+    .div3,
+    .div4 {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .group-parent{
         display: flex;
         flex-wrap: wrap;
     }
