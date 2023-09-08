@@ -868,5 +868,481 @@
     font-size: var(--font-size-lg);
     color: var(--color-darkslategray-100);
 }
-
 /* this is our unbeataable catologue  ends */
+
+/* this is shop by type styling starts here */
+
+.group-child,
+.group-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.group-child {
+  width: 415px;
+  height: 368px;
+  object-fit: cover;
+}
+.group-item {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: 0 0 0 var(--br-9xs);
+  background-color: var(--color-mediumseagreen);
+}
+.products1 {
+  position: absolute;
+  top: 23.33%;
+  left: 15.33%;
+  font-weight: 600;
+}
+.rectangle-group {
+  position: absolute;
+  height: 8.15%;
+  width: 49.34%;
+  top: 91.85%;
+  right: 50.66%;
+  bottom: 0;
+  left: 0;
+}
+.ellipse-icon,
+.group-inner {
+  position: absolute;
+  top: 129.77px;
+  left: 61.04px;
+  width: 49.21px;
+  height: 71.43px;
+}
+.ellipse-icon {
+  top: 15px;
+  left: 20px;
+  border-radius: 50%;
+  width: 106px;
+  height: 107.37px;
+  object-fit: cover;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 304px;
+  height: 368px;
+}
+.wooden {
+  position: absolute;
+  top: 382px;
+  left: calc(50% - 46px);
+  font-size: var(--font-size-lg);
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--color-gray-200);
+}
+.group-parent8 {
+  position: absolute;
+  top: 5px;
+  left: 686.5px;
+  width: 304px;
+  height: 404px;
+}
+.icon,
+.parent {
+  position: absolute;
+  left: 0;
+  height: 368px;
+}
+.icon {
+  top: 0;
+  border-radius: var(--br-9xs);
+  width: 415px;
+  object-fit: cover;
+}
+.parent {
+  top: 4px;
+  width: 304px;
+}
+.plain-solid-color {
+  position: absolute;
+  top: 386px;
+  left: calc(50% - 96px);
+  font-size: var(--font-size-lg);
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--color-gray-200);
+}
+.group-child2 {
+  position: absolute;
+  height: 88.24%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 11.76%;
+  left: 0;
+  background-color: var(--color-firebrick);
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+.polygon-icon {
+  position: absolute;
+  top: 0;
+  left: -34px;
+  width: 4px;
+  height: 5px;
+}
+.new,
+.rectangle-parent2 {
+  position: absolute;
+  transform-origin: 0 0;
+}
+.new {
+  top: 172.06%;
+  left: -27.38%;
+  font-weight: 600;
+  transform: rotate(-90deg);
+}
+.rectangle-parent2 {
+  height: 8.33%;
+  width: 27.63%;
+  top: 0;
+  right: -25%;
+  bottom: 91.67%;
+  left: 97.37%;
+  transform: rotate(90deg);
+}
+.group-icon,
+.group-parent9 {
+  position: absolute;
+  top: 445px;
+  left: 0;
+  width: 304px;
+  height: 408px;
+}
+.group-icon {
+  top: 0;
+  height: 368px;
+  object-fit: cover;
+}
+.veneer {
+  position: absolute;
+  top: 382px;
+  left: calc(50% - 38px);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.rectangle-parent3 {
+  position: absolute;
+  height: 7.43%;
+  width: 49.34%;
+  top: 83.66%;
+  right: 50.66%;
+  bottom: 8.91%;
+  left: 0;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.group,
+.group-parent10 {
+  position: absolute;
+  top: 5px;
+  width: 304px;
+}
+.group-parent10 {
+  left: 1030.5px;
+  height: 404px;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-200);
+}
+.group {
+  left: 0;
+  height: 368px;
+}
+.marble-stone {
+  position: absolute;
+  top: 387px;
+  left: calc(50% - 83px);
+  font-size: var(--font-size-lg);
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--color-gray-200);
+}
+.rectangle-parent5,
+.sale {
+  position: absolute;
+  transform-origin: 0 0;
+}
+.sale {
+  top: 170.59%;
+  left: -27.38%;
+  font-weight: 600;
+  transform: rotate(-90deg);
+}
+.rectangle-parent5 {
+  height: 8.31%;
+  width: 27.63%;
+  top: 0;
+  right: -26.32%;
+  bottom: 91.69%;
+  left: 98.68%;
+  transform: rotate(90deg);
+}
+.group-child11,
+.group-parent11 {
+  position: absolute;
+  top: 0;
+  left: 342.5px;
+  width: 304px;
+  height: 409px;
+}
+.group-child11 {
+  top: 15px;
+  left: 20px;
+  border-radius: 50%;
+  width: 106px;
+  height: 106px;
+  object-fit: cover;
+}
+.metallic {
+  position: absolute;
+  top: 382px;
+  left: calc(50% - 47px);
+  font-size: var(--font-size-lg);
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--color-gray-200);
+}
+.group-parent12 {
+  position: absolute;
+  top: 449px;
+  left: 688px;
+  width: 304px;
+  height: 404px;
+}
+.mirror {
+  position: absolute;
+  top: 382px;
+  left: calc(50% - 39px);
+  font-size: var(--font-size-lg);
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--color-gray-200);
+}
+.group-child15,
+.group-parent13 {
+  position: absolute;
+  top: 898px;
+  left: 0;
+  width: 304px;
+  height: 404px;
+}
+.group-child15 {
+  top: 5px;
+  height: 368px;
+  object-fit: cover;
+}
+.designer {
+  position: absolute;
+  top: 387px;
+  left: calc(50% - 49px);
+  font-size: var(--font-size-lg);
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--color-gray-200);
+}
+.rectangle-parent8 {
+  position: absolute;
+  height: 7.33%;
+  width: 49.34%;
+  top: 83.86%;
+  right: 50.66%;
+  bottom: 8.8%;
+  left: 0;
+}
+.group-parent14 {
+  position: absolute;
+  top: 893px;
+  left: 688px;
+  width: 304px;
+  height: 409px;
+}
+.sparkle {
+  position: absolute;
+  top: 382px;
+  left: calc(50% - 43px);
+  font-size: var(--font-size-lg);
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--color-gray-200);
+}
+.group-parent15 {
+  position: absolute;
+  top: 449px;
+  left: 344px;
+  width: 304px;
+  height: 404px;
+}
+.colored-veneer {
+  position: absolute;
+  top: 382px;
+  left: calc(50% - 88px);
+  font-size: var(--font-size-lg);
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--color-gray-200);
+}
+.rectangle-parent12,
+.trending {
+  position: absolute;
+  transform-origin: 0 0;
+}
+.trending {
+  top: 220.59%;
+  left: -27.38%;
+  font-weight: 600;
+  transform: rotate(-90deg);
+}
+.rectangle-parent12 {
+  height: 8.42%;
+  width: 27.63%;
+  top: 0;
+  right: -25.33%;
+  bottom: 91.58%;
+  left: 97.7%;
+  transform: rotate(90deg);
+}
+.group-parent16,
+.icon6 {
+  position: absolute;
+  top: 449px;
+  left: 1032px;
+  width: 304px;
+  height: 404px;
+}
+.icon6 {
+  top: 0;
+  left: 0;
+  width: 301px;
+  height: 368px;
+  object-fit: cover;
+}
+.rectangle-parent13 {
+  position: absolute;
+  height: 8.15%;
+  width: 49.83%;
+  top: 91.85%;
+  right: 50.17%;
+  bottom: 0;
+  left: 0;
+}
+.group-child29 {
+  position: absolute;
+  top: 22px;
+  left: 18px;
+  border-radius: 50%;
+  width: 106px;
+  height: 106px;
+  object-fit: cover;
+}
+.parent4 {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 301px;
+  height: 368px;
+}
+.designers-choice {
+  position: absolute;
+  top: 387px;
+  left: calc(50% - 96.5px);
+  font-size: var(--font-size-lg);
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--color-gray-200);
+}
+.rectangle-parent14 {
+  position: absolute;
+  height: 8.31%;
+  width: 27.91%;
+  top: 0;
+  right: -26.25%;
+  bottom: 91.69%;
+  left: 98.34%;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+.group-parent17 {
+  position: absolute;
+  top: 0;
+  left: 1.5px;
+  width: 301px;
+  height: 409px;
+}
+.rustic {
+  position: absolute;
+  top: 382px;
+  left: calc(50% - 34px);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.foil,
+.group-parent18 {
+  position: absolute;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-200);
+}
+.group-parent18 {
+  top: 898px;
+  left: 1032px;
+  width: 304px;
+  height: 404px;
+}
+.foil {
+  top: 387px;
+  left: calc(50% - 21px);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.rectangle-parent17 {
+  position: absolute;
+  height: 8.31%;
+  width: 27.63%;
+  top: 0;
+  right: -25.33%;
+  bottom: 91.69%;
+  left: 97.7%;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+.group-parent19,
+.group-parent7 {
+  position: absolute;
+  top: 893px;
+  left: 344px;
+  width: 304px;
+  height: 409px;
+}
+.group-parent7 {
+  top: 42px;
+  left: 0;
+  width: 1336px;
+  height: 1302px;
+}
+.shop-by-type {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 664.29px);
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  color: var(--color-darkslategray-100);
+  display: inline-block;
+  width: 196px;
+  height: 27px;
+}
+.group-parent6 {
+  position: absolute;
+  top: 1519px;
+  left: 52.45px;
+  width: 1336px;
+  height: 1344px;
+  color: var(--color-white);
+}
+/* this is shop by type styling ends here */
