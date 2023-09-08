@@ -1,0 +1,10 @@
+/* Styles for screens up to 768px wide (mobile devices) */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
