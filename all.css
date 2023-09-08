@@ -6,7 +6,7 @@ body {
   :root {
     /* fonts */
     --font-montserrat: Montserrat;
-    --font-pangram: Pangram;
+    --font-pangram: Roboto;
   
     /* font sizes */
     --font-size-sm: 14px;
