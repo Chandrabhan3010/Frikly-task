@@ -1,22 +1,134 @@
 /* Styles for screens up to 768px wide (mobile devices) */
 @media (max-width: 768px) {
-    body {
+    /* body {
         font-size: 16px;
-    }
+    } */
 
+    /* header section */
     .header {
-        display: block;
+        flex-direction: column;
     }
 
-    .div2,
-    .div3,
-    .div4 {
-        width: 100%;
-        padding: 10px;
-        box-sizing: border-box;
+    .header .div2,
+    .header .div3,
+    .header .div4 {
+        text-align: center;
     }
-    .group-parent{
+
+    /* section 1 */
+    .group-parent {
         display: flex;
         flex-wrap: wrap;
     }
+
+    .group-parent {
+        flex-direction: column;
+    }
+
+    .group-div {
+        width: 100%;
+    }
+
+    /* section 2 */
+    .group-parent4 {
+        flex-direction: column;
+    }
+
+    .group-parent5 {
+        flex-direction: column;
+    }
+
+    /* section 3 */
+    .group-parent6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .group-parent7 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .group-parent8,
+    .group-parent9,
+    .group-parent10,
+    .group-parent11,
+    .group-parent12,
+    .group-parent13,
+    .group-parent14,
+    .group-parent15,
+    .group-parent16,
+    .group-parent17,
+    .group-parent18,
+    .group-parent19 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+
+    /* section 4 */
+    .shop-by-finish-parent {
+        text-align: center;
+    }
+
+    .group-parent20,
+    .group-parent21,
+    .group-parent22,
+    .group-parent23,
+    .group-parent24,
+    .group-parent25,
+    .group-parent26,
+    .group-parent27 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .rectangle-parent18,
+    .rectangle-parent19,
+    .rectangle-parent20,
+    .rectangle-parent21,
+    .rectangle-parent23,
+    .rectangle-parent24,
+    .rectangle-parent25,
+    .rectangle-parent26,
+    .rectangle-parent27 {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    /* section 5 - footer and paragraph section*/
+    .group-parent24 {
+        padding: 10px;
+    }
+
+    .pvc-laminates1,
+    .laminates-sunmica1,
+    .acrylic-laminates1,
+    .inner-mica1,
+    .laminates-sunmica-by-types1 {
+        font-size: 20px;
+    }
+
+    .pvc-laminates-are,
+    .laminates-sunmica-are,
+    .acrylic-laminates-are,
+    .acrylic-laminates-are,
+    .laminates-sunmica-by-types-are {
+        font-size: 14px;
+    }
+
+    .logo-icon {
+        width: 80px;
+    }
+
+
 }
